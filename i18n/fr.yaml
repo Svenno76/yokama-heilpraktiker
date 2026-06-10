@@ -1,0 +1,50 @@
+# French translations
+
+# Navigation
+nav_home: "Accueil"
+nav_about: "À propos"
+nav_methods: "Méthodes"
+nav_testimonials: "Témoignages"
+nav_glossary: "Glossaire"
+nav_contact: "Contact"
+
+# Hero Section
+hero_title: "Thérapeute Holistique — Berlin"
+hero_subtitle: "Thérapie Centrée sur les Solutions pour Trauma, Anxiété et Dépression"
+
+# CTAs
+cta_booking: "Réserver une première consultation"
+cta_learn_more: "En savoir plus"
+btn_learn_more: "En savoir plus"
+
+# Section Titles
+section_about: "À propos de moi"
+section_methods: "Mes Méthodes"
+section_testimonials: "Témoignages de Clients"
+section_glossary: "Glossaire"
+section_contact: "Contact et Réservation"
+
+# About Section
+stat_years: "Années d'expérience"
+stat_clients: "Clients accompagnés"
+stat_languages: "Langues"
+
+# Methods
+method_emdr_desc: "Eye Movement Integration / Desensitization and Reprocessing — utilise les mouvements oculaires pour traiter les souvenirs traumatiques."
+method_brainspotting_title: "Brainspotting"
+method_brainspotting_desc: "Une technique basée sur les mouvements oculaires qui soutient le cerveau dans le traitement du trauma."
+method_hypnotherapy_title: "Hypnothérapie"
+method_hypnotherapy_desc: "Utilisation thérapeutique de l'hypnose pour un changement rapide et direct des schémas."
+method_sfbt_desc: "Thérapie Brève Centrée sur les Solutions — se concentre sur les solutions et les objectifs plutôt que sur les problèmes et le passé."
+
+# Contact
+contact_text: "Trouvons ensemble votre chemin vers la liberté. Réservez votre première consultation facilement en ligne."
+contact_email: "E-mail"
+contact_phone: "Téléphone"
+contact_location: "Lieu"
+
+# Footer
+footer_imprint: "Mentions Légales"
+footer_privacy: "Politique de Confidentialité"
+footer_all_rights: "Tous droits réservés."
+footer_disclaimer: "Avertissement: En tant que thérapeute holistique, je ne fais pas de promesses de guérison. Les méthodes mentionnées ici sont basées sur mon expérience avec les clients."

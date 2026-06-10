@@ -1,0 +1,30 @@
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Yokama Heilpraktiker</div>
+
+      <ul class="nav-links">
+        <li><a href="#hero">{{ i18n "nav_home" }}</a></li>
+        <li><a href="#about">{{ i18n "nav_about" }}</a></li>
+        <li><a href="#methods">{{ i18n "nav_methods" }}</a></li>
+        <li><a href="#testimonials">{{ i18n "nav_testimonials" }}</a></li>
+        <li><a href="#glossary">{{ i18n "nav_glossary" }}</a></li>
+        <li><a href="#contact">{{ i18n "nav_contact" }}</a></li>
+      </ul>
+
+      <div class="language-selector">
+        {{ range .Site.Languages }}
+        <a href="{{ .LanguagePrefix }}/" {{ if eq . $.Site.Language }}class="active"{{ end }}>
+          {{ .LanguageName }}
+        </a>
+        {{ end }}
+      </div>
+
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,63 @@
+baseURL = "https://wege-aus-trauma.de/"
+languageCode = "de"
+title = "Yokama Heilpraktiker — Gaby Cammerer"
+theme = "yokama"
+paginate = 10
+
+# Enable syntax highlighting
+pygmentsUseClasses = true
+pygmentsSyntax = "monokai"
+
+# Markdown settings
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+# Multilingual configuration
+[languages]
+[languages.de]
+contentDir = "content"
+languageName = "Deutsch"
+weight = 1
+title = "Yokama Heilpraktiker"
+
+[languages.en]
+contentDir = "content_en"
+languageName = "English"
+weight = 2
+title = "Yokama Heilpraktitioner"
+
+[languages.fr]
+contentDir = "content_fr"
+languageName = "Français"
+weight = 3
+title = "Yokama Guérisseur"
+
+# Site parameters
+[params]
+description = "Heilpraktikerin für Psychotherapie in Berlin — Spezialisiert auf Trauma, Angststörungen und Depression. Lösungsfokussierte, effiziente Therapie."
+author = "Gaby Cammerer"
+contactEmail = "kontakt@wege-aus-trauma.de"
+contactPhone = "+49 151 53064034"
+address = "Berlin-Wilmersdorf, Deutschland"
+bookingURL = "https://calendly.com/contact"  # To be updated with real Calendly link
+
+# Social media (optional)
+[params.social]
+instagram = ""
+linkedin = ""
+facebook = ""
+
+# Analytics (to be added post-launch)
+[params.analytics]
+googleAnalyticsID = ""
+
+# Output formats
+[outputs]
+home = ["HTML", "JSON"]
+
+# Module configuration (for theme)
+[module]
+[[module.imports]]
+path = "github.com/Svenno76/yokama-heilpraktiker"

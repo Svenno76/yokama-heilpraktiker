@@ -1,0 +1,50 @@
+# English translations
+
+# Navigation
+nav_home: "Home"
+nav_about: "About"
+nav_methods: "Methods"
+nav_testimonials: "Testimonials"
+nav_glossary: "Glossary"
+nav_contact: "Contact"
+
+# Hero Section
+hero_title: "Psychotherapy Practitioner — Berlin"
+hero_subtitle: "Solution-Focused Therapy for Trauma, Anxiety & Depression"
+
+# CTAs
+cta_booking: "Book First Consultation"
+cta_learn_more: "Learn More"
+btn_learn_more: "Learn More"
+
+# Section Titles
+section_about: "About Me"
+section_methods: "My Methods"
+section_testimonials: "Client Testimonials"
+section_glossary: "Glossary"
+section_contact: "Contact & Booking"
+
+# About Section
+stat_years: "Years of Experience"
+stat_clients: "Clients Supported"
+stat_languages: "Languages"
+
+# Methods
+method_emdr_desc: "Eye Movement Integration / Desensitization and Reprocessing — uses eye movements to process traumatic memories."
+method_brainspotting_title: "Brainspotting"
+method_brainspotting_desc: "An eye-movement based technique that supports the brain in processing trauma."
+method_hypnotherapy_title: "Hypnotherapy"
+method_hypnotherapy_desc: "Therapeutic use of hypnosis for quick and direct pattern change."
+method_sfbt_desc: "Solution Focused Brief Therapy — focuses on solutions and goals rather than problems and the past."
+
+# Contact
+contact_text: "Let's find your path to freedom together. Book your first consultation easily online."
+contact_email: "Email"
+contact_phone: "Phone"
+contact_location: "Location"
+
+# Footer
+footer_imprint: "Imprint"
+footer_privacy: "Privacy Policy"
+footer_all_rights: "All rights reserved."
+footer_disclaimer: "Disclaimer: As a psychotherapy practitioner, I do not make healing promises. The methods mentioned here are based on my experience with clients."
