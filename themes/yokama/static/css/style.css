@@ -94,7 +94,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-md) 0;
+  padding: 12px 0;
 }
 
 .logo-link {
@@ -108,7 +108,7 @@ nav {
 }
 
 .logo-image {
-  height: 50px;
+  height: 30px;
   width: auto;
   display: block;
 }
