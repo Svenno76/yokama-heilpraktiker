@@ -32,3 +32,6 @@ package-lock.json
 
 # Uploads
 .claude/uploads/
+
+# Local Netlify folder
+.netlify
