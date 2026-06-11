@@ -87,6 +87,44 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
+// Carousel functionality
+const initCarousel = () => {
+  const carousel = document.querySelector('.carousel');
+  if (!carousel) return;
+
+  const slides = carousel.querySelectorAll('.carousel-slide');
+  const dots = carousel.querySelectorAll('.carousel-dot');
+  let currentSlide = 0;
+
+  const showSlide = (index) => {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === index);
+    });
+  };
+
+  const nextSlide = () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  };
+
+  // Auto-advance carousel every 5 seconds
+  setInterval(nextSlide, 5000);
+
+  // Manual dot navigation
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentSlide = index;
+      showSlide(currentSlide);
+    });
+  });
+
+  // Show first slide
+  showSlide(0);
+};
+
 // Lazy load images
 if ('IntersectionObserver' in window) {
   const imageObserver = new IntersectionObserver((entries, observer) => {
@@ -101,4 +139,11 @@ if ('IntersectionObserver' in window) {
   });
 
   document.querySelectorAll('img[data-src]').forEach(img => imageObserver.observe(img));
+}
+
+// Initialize carousel when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', initCarousel);
+} else {
+  initCarousel();
 }

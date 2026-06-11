@@ -156,8 +156,9 @@ nav {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, rgba(20, 80, 95, 0.7), rgba(65, 165, 175, 0.7)),
-              url('../../images/hero-bg.jpg') center/cover;
+  background: linear-gradient(135deg, rgba(20, 80, 95, 0.75), rgba(65, 165, 175, 0.75)),
+              url('/images/hero-bg.webp') center/cover no-repeat;
+  background-attachment: fixed;
   color: var(--color-white);
   padding: 120px var(--spacing-md);
   text-align: center;
@@ -495,6 +496,72 @@ footer a:hover {
     flex-direction: column;
     gap: var(--spacing-md);
   }
+}
+
+/* Image Carousel */
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: var(--spacing-lg) auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 66.67%; /* 3:2 aspect ratio */
+  overflow: hidden;
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.carousel-slide.active {
+  opacity: 1;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-controls {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-dot.active {
+  background-color: var(--color-white);
+}
+
+.carousel-dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Print Styles */
