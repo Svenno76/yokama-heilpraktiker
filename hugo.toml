@@ -56,8 +56,3 @@ googleAnalyticsID = ""
 # Output formats
 [outputs]
 home = ["HTML", "JSON"]
-
-# Module configuration (for theme)
-[module]
-[[module.imports]]
-path = "github.com/Svenno76/yokama-heilpraktiker"
