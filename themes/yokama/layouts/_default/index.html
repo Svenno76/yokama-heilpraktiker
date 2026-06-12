@@ -1,165 +1,104 @@
 {{ define "main" }}
 
-<!-- Hero Section -->
+<!-- Hero -->
 <section id="hero" class="hero">
-  <div class="container">
+  <div class="hero-inner">
+    {{ partial "badge.html" (dict "tone" "accent" "text" (i18n "hero_badge")) }}
     <h1>{{ .Params.hero_title | default (i18n "hero_title") }}</h1>
     <p>{{ .Params.hero_subtitle | default (i18n "hero_subtitle") }}</p>
-    <div style="margin-top: 32px;">
-      <a href="{{ .Site.Params.bookingURL }}" class="btn btn-primary" target="_blank">
-        {{ i18n "cta_booking" }}
-      </a>
-      <a href="#methods" class="btn btn-secondary" style="margin-left: 16px;">
-        {{ i18n "cta_learn_more" }}
-      </a>
+    <div class="hero-cta">
+      {{ partial "button.html" (dict "variant" "primary" "label" (i18n "cta_booking") "href" "#contact") }}
+      {{ partial "button.html" (dict "variant" "secondary" "onDark" true "label" (i18n "cta_learn_more") "href" "#methods") }}
     </div>
   </div>
 </section>
 
-<!-- About Section -->
-<section id="about" class="container">
-  <h2>{{ i18n "section_about" }}</h2>
-
-  <div class="about-content">
+<!-- About -->
+<section id="about">
+  <div class="container about-content">
     <div class="about-image">
-      <img src="/images/gaby-portrait.webp" alt="{{ .Site.Params.author }}" loading="lazy">
+      <img src="/images/photo-3.webp" alt="{{ .Site.Params.author }}" loading="lazy">
     </div>
 
     <div class="about-text">
+      {{ partial "section-heading.html" (dict "eyebrow" (i18n "nav_about") "title" (i18n "about_title") "align" "left") }}
+
       {{ .Content }}
 
       <div class="stats-grid">
-        <div class="stat">
-          <div class="stat-number">10+</div>
-          <div class="stat-label">{{ i18n "stat_years" }}</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">500+</div>
-          <div class="stat-label">{{ i18n "stat_clients" }}</div>
-        </div>
-        <div class="stat">
-          <div class="stat-number">3</div>
-          <div class="stat-label">{{ i18n "stat_languages" }}</div>
-        </div>
+        {{ partial "stat-block.html" (dict "value" "10+" "label" (i18n "stat_years")) }}
+        {{ partial "stat-block.html" (dict "value" "500+" "label" (i18n "stat_clients")) }}
+        {{ partial "stat-block.html" (dict "value" "3" "label" (i18n "stat_languages")) }}
       </div>
     </div>
   </div>
 </section>
 
-<!-- Image Carousel Section -->
-<section class="container" style="margin: var(--spacing-xl) auto;">
-  <h2>{{ i18n "section_gallery" | default "Bildergalerie" }}</h2>
-
-  <div class="carousel">
-    <div class="carousel-container">
-      <div class="carousel-slide active">
-        <img src="/images/hero-bg.webp" alt="Gaby Cammerer 1" loading="lazy">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/carousel-1.webp" alt="Gaby Cammerer 2" loading="lazy">
-      </div>
-      <div class="carousel-slide">
-        <img src="/images/carousel-2.webp" alt="Gaby Cammerer 3" loading="lazy">
-      </div>
-    </div>
-    <div class="carousel-controls">
-      <div class="carousel-dot active"></div>
-      <div class="carousel-dot"></div>
-      <div class="carousel-dot"></div>
-    </div>
-  </div>
-</section>
-
-<!-- Methods Section -->
-<section id="methods" class="container">
-  <h2>{{ i18n "section_methods" }}</h2>
-
-  <div class="methods-grid">
-    <div class="method-card">
-      <div class="method-icon">👁️</div>
-      <h3>EMI / EMDR</h3>
-      <p>{{ i18n "method_emdr_desc" }}</p>
-      <a href="#glossary" class="btn btn-primary">{{ i18n "btn_learn_more" }}</a>
-    </div>
-
-    <div class="method-card">
-      <div class="method-icon">🎯</div>
-      <h3>{{ i18n "method_brainspotting_title" }}</h3>
-      <p>{{ i18n "method_brainspotting_desc" }}</p>
-      <a href="#glossary" class="btn btn-primary">{{ i18n "btn_learn_more" }}</a>
-    </div>
-
-    <div class="method-card">
-      <div class="method-icon">🌙</div>
-      <h3>{{ i18n "method_hypnotherapy_title" }}</h3>
-      <p>{{ i18n "method_hypnotherapy_desc" }}</p>
-      <a href="#glossary" class="btn btn-primary">{{ i18n "btn_learn_more" }}</a>
-    </div>
-
-    <div class="method-card">
-      <div class="method-icon">🚀</div>
-      <h3>SFBT</h3>
-      <p>{{ i18n "method_sfbt_desc" }}</p>
-      <a href="#glossary" class="btn btn-primary">{{ i18n "btn_learn_more" }}</a>
-    </div>
-  </div>
-</section>
-
-<!-- Testimonials Section -->
-<section id="testimonials" class="container" style="background-color: #f5f5f5; margin: 0 auto; padding: 48px 0; width: 100%;">
+<!-- Methods -->
+<section id="methods">
   <div class="container">
-    <h2>{{ i18n "section_testimonials" }}</h2>
+    {{ partial "section-heading.html" (dict "eyebrow" (i18n "nav_methods") "title" (i18n "methods_title")) }}
+
+    <div class="methods-grid">
+      {{ partial "method-card.html" (dict "icon" "👁️" "title" "EMI / EMDR" "description" (i18n "method_emdr_desc") "ctaLabel" (i18n "btn_learn_more") "href" "#glossary") }}
+      {{ partial "method-card.html" (dict "icon" "🎯" "title" (i18n "method_brainspotting_title") "description" (i18n "method_brainspotting_desc") "ctaLabel" (i18n "btn_learn_more") "href" "#glossary") }}
+      {{ partial "method-card.html" (dict "icon" "🌙" "title" (i18n "method_hypnotherapy_title") "description" (i18n "method_hypnotherapy_desc") "ctaLabel" (i18n "btn_learn_more") "href" "#glossary") }}
+      {{ partial "method-card.html" (dict "icon" "🚀" "title" "SFBT" "description" (i18n "method_sfbt_desc") "ctaLabel" (i18n "btn_learn_more") "href" "#glossary") }}
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials -->
+<section id="testimonials" class="testimonials-band">
+  <div class="container">
+    {{ partial "section-heading.html" (dict "eyebrow" (i18n "testimonials_eyebrow") "title" (i18n "section_testimonials")) }}
 
     <div class="testimonials-container">
-      {{ range .Params.testimonials }}
-      <div class="testimonial">
-        <p>"{{ .quote }}"</p>
-        <p class="testimonial-author">— {{ .author }}</p>
-      </div>
+      {{ range first 3 .Params.testimonials }}
+        {{ partial "testimonial-card.html" (dict "quote" .quote "author" .author) }}
       {{ end }}
     </div>
   </div>
 </section>
 
-<!-- Glossary Section -->
-<section id="glossary" class="container">
-  <h2>{{ i18n "section_glossary" }}</h2>
+<!-- Glossary -->
+<section id="glossary">
+  <div class="container">
+    {{ partial "section-heading.html" (dict "eyebrow" (i18n "nav_glossary") "title" (i18n "glossary_title")) }}
 
-  <div class="glossary-terms">
-    {{ range .Params.glossary }}
-    <div class="glossary-term">
-      <h4>{{ .term }}</h4>
-      <div class="glossary-definition">{{ .definition }}</div>
+    <div class="glossary-terms">
+      {{ range .Params.glossary }}
+        {{ partial "glossary-term.html" (dict "term" .term "definition" .definition) }}
+      {{ end }}
     </div>
-    {{ end }}
   </div>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="container">
-  <h2>{{ i18n "section_contact" }}</h2>
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    {{ partial "section-heading.html" (dict "eyebrow" (i18n "section_contact") "title" (i18n "contact_title")) }}
 
-  <div class="contact-info">
-    <p style="font-size: 18px; margin-bottom: 24px;">{{ i18n "contact_text" }}</p>
+    <div class="contact-info">
+      <p>{{ i18n "contact_text" }}</p>
 
-    <a href="{{ .Site.Params.bookingURL }}" class="btn btn-primary" target="_blank" style="margin-bottom: 32px;">
-      {{ i18n "cta_booking" }}
-    </a>
+      {{ partial "button.html" (dict "variant" "primary" "label" (i18n "cta_booking") "href" .Site.Params.bookingURL "target" "_blank") }}
 
-    <div class="contact-details">
-      <div class="contact-detail">
-        <h4>📧 {{ i18n "contact_email" }}</h4>
-        <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>
-      </div>
+      <div class="contact-details">
+        <div class="contact-detail">
+          <h4>📧 {{ i18n "contact_email" }}</h4>
+          <a href="mailto:{{ .Site.Params.contactEmail }}">{{ .Site.Params.contactEmail }}</a>
+        </div>
 
-      <div class="contact-detail">
-        <h4>📞 {{ i18n "contact_phone" }}</h4>
-        <a href="tel:{{ .Site.Params.contactPhone }}">{{ .Site.Params.contactPhone }}</a>
-      </div>
+        <div class="contact-detail">
+          <h4>📞 {{ i18n "contact_phone" }}</h4>
+          <a href="tel:{{ .Site.Params.contactPhone }}">{{ .Site.Params.contactPhone }}</a>
+        </div>
 
-      <div class="contact-detail">
-        <h4>📍 {{ i18n "contact_location" }}</h4>
-        <p>{{ .Site.Params.address }}</p>
+        <div class="contact-detail">
+          <h4>📍 {{ i18n "contact_location" }}</h4>
+          <p>{{ .Site.Params.address }}</p>
+        </div>
       </div>
     </div>
   </div>

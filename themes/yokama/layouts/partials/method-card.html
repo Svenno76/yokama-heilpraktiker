@@ -1,0 +1,7 @@
+{{- /* Method card. Params: icon, title, description, ctaLabel, href */ -}}
+<div class="method-card">
+  <div class="method-icon" aria-hidden="true">{{ .icon }}</div>
+  <h3>{{ .title }}</h3>
+  <p>{{ .description }}</p>
+  {{ partial "button.html" (dict "variant" "primary" "size" "sm" "label" .ctaLabel "href" .href) }}
+</div>

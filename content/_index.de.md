@@ -43,8 +43,6 @@ glossary:
 draft: false
 ---
 
-## Über mich
-
 Als Kind war ich schüchtern, zurückhaltend – und immer die Beste in der Klasse. Beides zusammen ist keine gute Kombination, wenn man dazugehören möchte.
 
 Es gab einen Jungen namens Simon. Er hat mich jahrelang gemobbt – von der Grundschule bis zum Gymnasium. Ich bin extra auf ein Gymnasium weiter weg gegangen, um ihm zu entkommen. Er kam mit. Als Einziger.

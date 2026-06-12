@@ -1,8 +1,8 @@
 <header>
   <div class="container">
     <nav>
-      <a href="/" class="logo-link">
-        <img src="/images/logo.png" alt="Yokama Heilpraktiker" class="logo-image">
+      <a href="/{{ .Site.Language.Lang }}/" class="logo-link">
+        <img src="/images/logo-dunkelblau.png" alt="Yokama Heilpraktiker" class="logo-image">
       </a>
 
       <ul class="nav-links">
@@ -16,8 +16,8 @@
 
       <div class="language-selector">
         {{ range .Site.Languages }}
-        <a href="/{{ .Lang }}/" {{ if eq .Lang $.Site.Language.Lang }}class="active"{{ end }}>
-          {{ .LanguageName }}
+        <a href="/{{ .Lang }}/" {{ if eq .Lang $.Site.Language.Lang }}class="active"{{ end }} aria-label="{{ .LanguageName }}">
+          {{ .Lang | upper }}
         </a>
         {{ end }}
       </div>

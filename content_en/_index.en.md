@@ -43,8 +43,6 @@ glossary:
 draft: false
 ---
 
-## About Me
-
 As a child, I was shy, reserved — and always the best in my class. Together, that's not a good combination when you want to belong.
 
 There was a boy named Simon. He bullied me for years — from primary school through high school. I even went to a high school far away to escape him. He came with me. As the only one.

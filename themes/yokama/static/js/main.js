@@ -70,7 +70,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Animate number counter
   function animateNumber(element) {
-    const target = parseInt(element.textContent);
+    const raw = element.textContent.trim();
+    const target = parseInt(raw, 10);
+    const suffix = raw.replace(/[0-9]/g, ''); // preserve "+" (or none for "3")
     const duration = 1000; // 1 second
     const increment = target / (duration / 16); // 60fps
     let current = 0;
@@ -78,10 +80,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const counter = setInterval(() => {
       current += increment;
       if (current >= target) {
-        element.textContent = target + '+';
+        element.textContent = target + suffix;
         clearInterval(counter);
       } else {
-        element.textContent = Math.floor(current) + '+';
+        element.textContent = Math.floor(current) + suffix;
       }
     }, 16);
   }

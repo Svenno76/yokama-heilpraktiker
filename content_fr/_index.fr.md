@@ -43,8 +43,6 @@ glossary:
 draft: false
 ---
 
-## À propos de moi
-
 Enfant, j'étais timide, réservée — et toujours la meilleure de la classe. Ensemble, ce n'est pas une bonne combinaison quand on veut appartenir à un groupe.
 
 Il y avait un garçon nommé Simon. Il m'a harcèle pendant des années — de l'école primaire au lycée. J'ai même changé d'école pour m'échapper. Il m'a suivie. Comme le seul et unique.

@@ -1,0 +1,10 @@
+{{- /* Button component. Params: variant, label, href, size, onDark, target */ -}}
+{{- $variant := .variant | default "primary" -}}
+{{- $class := printf "btn btn-%s" $variant -}}
+{{- with .size }}{{ $class = printf "%s btn--%s" $class . }}{{ end -}}
+{{- if .onDark }}{{ $class = printf "%s btn--on-dark" $class }}{{ end -}}
+{{- if .href -}}
+<a href="{{ .href }}" class="{{ $class }}"{{ with .target }} target="{{ . }}" rel="noopener"{{ end }}>{{ .label }}</a>
+{{- else -}}
+<button type="button" class="{{ $class }}">{{ .label }}</button>
+{{- end -}}

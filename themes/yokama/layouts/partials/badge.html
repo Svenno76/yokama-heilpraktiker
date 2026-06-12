@@ -1,0 +1,3 @@
+{{- /* Badge chip. Params: tone (tint|solid|accent|outline), text */ -}}
+{{- $tone := .tone | default "tint" -}}
+<span class="badge badge--{{ $tone }}">{{ .text }}</span>

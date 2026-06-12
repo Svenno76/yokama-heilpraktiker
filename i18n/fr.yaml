@@ -49,3 +49,11 @@ footer_imprint: "Mentions Légales"
 footer_privacy: "Politique de Confidentialité"
 footer_all_rights: "Tous droits réservés."
 footer_disclaimer: "Avertissement: En tant que thérapeute holistique, je ne fais pas de promesses de guérison. Les méthodes mentionnées ici sont basées sur mon expérience avec les clients."
+
+# Design-system section copy (eyebrows, headings, badge)
+hero_badge: "📍 Berlin-Wilmersdorf · depuis 2016"
+about_title: "De la tour de bois à la liberté"
+methods_title: "Des méthodes efficaces, centrées sur les solutions"
+testimonials_eyebrow: "Histoires de réussite"
+glossary_title: "Des termes expliqués simplement"
+contact_title: "Trouvons votre chemin"

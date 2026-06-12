@@ -1,0 +1,10 @@
+{{- /* Section heading. Params: eyebrow, title, align ("center"|"left"), onDark */ -}}
+{{- $class := "section-heading" -}}
+{{- if eq (.align | default "center") "left" }}{{ $class = "section-heading section-heading--left" }}{{ end -}}
+{{- if .onDark }}{{ $class = printf "%s section-heading--on-dark" $class }}{{ end -}}
+<header class="{{ $class }}">
+  {{- with .eyebrow }}
+  <div class="eyebrow">{{ . }}</div>
+  {{- end }}
+  <h2>{{ .title }}</h2>
+</header>

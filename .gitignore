@@ -35,3 +35,7 @@ package-lock.json
 
 # Local Netlify folder
 .netlify
+
+# Design-system handoff bundle (reference only, not site source)
+/Yokama Heilpraktiker Design System/
+/Yokama Heilpraktiker Design System.zip

@@ -49,3 +49,11 @@ footer_imprint: "Imprint"
 footer_privacy: "Privacy Policy"
 footer_all_rights: "All rights reserved."
 footer_disclaimer: "Disclaimer: As a psychotherapy practitioner, I do not make healing promises. The methods mentioned here are based on my experience with clients."
+
+# Design-system section copy (eyebrows, headings, badge)
+hero_badge: "📍 Berlin-Wilmersdorf · since 2016"
+about_title: "From the Wooden Tower to Freedom"
+methods_title: "Effective, Solution-Focused Methods"
+testimonials_eyebrow: "Success Stories"
+glossary_title: "Key Terms, Clearly Explained"
+contact_title: "Let's Find Your Path"

@@ -49,3 +49,11 @@ footer_imprint: "Impressum"
 footer_privacy: "Datenschutz"
 footer_all_rights: "Alle Rechte vorbehalten."
 footer_disclaimer: "Hinweis: Als Heilpraktikerin für Psychotherapie gebe ich keine Heilversprechen. Die hier genannten Methoden basieren auf meinen Erfahrungen mit Klientinnen."
+
+# Design-system section copy (eyebrows, headings, badge)
+hero_badge: "📍 Berlin-Wilmersdorf · seit 2016"
+about_title: "Vom Holzturm in die Freiheit"
+methods_title: "Wirksame, lösungsorientierte Methoden"
+testimonials_eyebrow: "Erfolgsgeschichten"
+glossary_title: "Begriffe verständlich erklärt"
+contact_title: "Lass uns deinen Weg finden"
