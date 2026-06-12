@@ -43,41 +43,8 @@ glossary:
 draft: false
 ---
 
-Als Kind war ich schüchtern, zurückhaltend – und immer die Beste in der Klasse. Beides zusammen ist keine gute Kombination, wenn man dazugehören möchte.
+Als Kind war ich schüchtern, zurückhaltend — und immer die Beste in der Klasse. Keine gute Kombination, wenn man dazugehören will. Ein Junge hat mich jahrelang gemobbt. Einmal hat er mich auf einen hohen Holzturm auf dem Schulhof gesperrt — die ganze Pause lang. Er war längst weg. Aber meine Angst hat mich oben festgehalten.
 
-Es gab einen Jungen namens Simon. Er hat mich jahrelang gemobbt – von der Grundschule bis zum Gymnasium. Ich bin extra auf ein Gymnasium weiter weg gegangen, um ihm zu entkommen. Er kam mit. Als Einziger.
+Jahre später stand ich wieder auf einem Holzturm. Und dieses Mal — bin ich einfach runtergekommen. In dem Moment habe ich zum ersten Mal gespürt: Ich kann etwas tun. Ich bin nicht hilflos. Genau darum geht es in meiner Arbeit — denn nicht die Situation selbst hält uns gefangen, sondern das, was sie in uns hinterlässt.
 
-Ich erinnere mich an eine Pause in der 1. Klasse, in der er mich auf einen hohen Holzturm auf dem Schulhof hochgezwungen hat – und mich dort oben eingesperrt hat. Die ganze Pause. Ich war vor Angst wie gelähmt. Nicht nur wegen der Höhe. Sondern weil ich nicht wusste, was mich unten erwartet. Er war längst weg. Aber meine Angst hat mich festgehalten. Genau das ist Trauma: Nicht die Situation selbst hält uns gefangen – sondern das, was sie in uns hinterlässt.
-
-Später ist etwas Wichtiges passiert: Ich stand wieder oben auf einem Holzturm. Und dieses Mal – bin ich einfach runtergekommen.
-
-Im Rückblick war das der Moment, in dem ich zum ersten Mal gespürt habe: **Ich kann etwas tun. Ich bin nicht hilflos.** Das war der Beginn von allem, was ich heute tue.
-
-Heute begleite ich Menschen, die in ihrem eigenen Holzturm feststecken. Die wissen, dass die Gefahr längst vorbei ist – und trotzdem nicht runterkommen. Die immer wieder getriggert werden von dem, was damals passiert ist.
-
-### Meine Arbeitsweise
-
-Meine Arbeit ist nicht dazu da, die Vergangenheit endlos aufzurollen. Sie ist dazu da, die Verbindung zu lösen – zwischen dem, was damals war, und dem, was dich heute noch festhält. Effizient, lösungsorientiert und mit einer gehörigen Portion Menschlichkeit. Manchmal sogar mit einem Schmunzeln.
-
-Heute bin ich Heilpraktikerin für Psychotherapie, spezialisiert auf Traumata, Ängste und Depressionen. Ich weiß aus eigener Erfahrung, wie es sich anfühlt, festzustecken. Und ich weiß genauso, wie es sich anfühlt, wieder frei zu sein.
-
-**Wenn du bereit bist – lass uns gemeinsam deinen Weg runter vom Turm in die Freiheit finden.**
-
----
-
-### Meine Methoden
-
-Ich arbeite mit hochwirksamen, lösungsorientierten Methoden, die sich bewährt haben. Jede Methode bringt unterschiedliche Stärken mit:
-
-- **EMI/EMDR**: Nutzt Augenbewegungen zur Verarbeitung traumatischer Erinnerungen
-- **Brainspotting**: Arbeitet mit bestimmten Augenpositionen, um tiefe Verarbeitung zu ermöglichen
-- **Hypnotherapie**: Nutzt den hypnotischen Zustand für schnelle, direkte Veränderungen
-- **SFBT (Lösungsfokussierte Kurztherapie)**: Konzentriert sich auf Lösungen und zukünftige Ressourcen, nicht auf Probleme
-
-### Wichtiger Hinweis
-
-Als Heilpraktikerin für Psychotherapie bin ich gesetzlich verpflichtet: **Ich gebe keine Heilversprechen.** 
-
-Stattdessen kann ich sagen: Ich habe gute Erfahrungen mit Menschen gemacht, die unter Ängsten, Panikattacken, Depressionen und Traumata leiden. Viele meiner Klientinnen berichten von positiven Veränderungen. Bei mir arbeiten Methoden, die sich bewährt haben – aber jeder Mensch ist unterschiedlich.
-
-Das Ziel meiner Arbeit: Du sollst dich stark und selbstbewusst fühlen und sagen: **"Ich kann etwas tun – und ich werde es tun, denn ich weiß, wie."**
+Heute bin ich Heilpraktikerin für Psychotherapie, spezialisiert auf Traumata, Ängste und Depressionen. Ich begleite Menschen, die in ihrem eigenen Holzturm feststecken — effizient, lösungsorientiert und mit einer gehörigen Portion Menschlichkeit. Manchmal sogar mit einem Schmunzeln. Wenn du bereit bist: Lass uns gemeinsam deinen Weg runter vom Turm finden.
